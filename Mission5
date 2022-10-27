@@ -1,0 +1,100 @@
+public class Mission52 {
+    
+    public static void haha(){
+
+
+
+
+   List<Integer> Input = new List<Integer>();  
+
+
+
+// store red,blue,green,red Nums in set  
+
+
+
+Integer Num1 = 12;  
+
+
+
+Input.add(Num1);  
+
+
+
+Integer Num2 = 20;  
+
+
+
+Input.add(Num2);  
+
+
+
+Integer Num3 = 30;  
+
+
+
+Input.add(Num3);  
+
+
+
+Integer Num4 = 17;  
+
+
+
+Input.add(Num4);  
+
+
+
+
+System.debug(Input);  
+
+
+
+
+for(Integer Num : Input){
+    if( Math.Mod(Num,3)==0 && Math.Mod(Num,5)==0){
+
+
+
+       System.debug('DingDong');  
+
+
+
+   }  
+    
+    else if( Math.Mod(Num,5)==0){
+
+
+
+       System.debug('Dong');  
+
+
+
+   }  
+
+
+
+   else if( Math.Mod(Num,3)==0){
+
+
+
+       System.debug('Ding');  
+
+
+
+   }  
+
+
+
+   else {
+
+
+
+      System.debug(Num);  
+
+
+
+  }   
+}
+}
+}
